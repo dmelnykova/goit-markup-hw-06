@@ -528,6 +528,67 @@ img {
     background-color: var(--pressed-success-color);
 }
 
+.footer-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px;
+}
+
+.sub-form-title {
+
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    cursor: pointer;
+    background-color: var(--title-background-color-dark);
+    color: var(--backgrond-color-light);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input:focus {
+    border: 1px solid var(--primary-brand-color);
+    outline: none;
+}
+
+.footer-input::placeholder {
+    color: #FFFFFF;
+    font-family: var(--font-text-base);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.footer-email-btn {
+    background-color: var(--primary-brand-color);
+    border-radius: 4px;
+    color: var(--backgrond-color-light);
+    font-family: var(--font-text-base);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    justify-content: center;
+    padding: 8px 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 24px;
+}
+
+.footer-email-btn:hover, .footer-email-btn:focus {
+    background-color: var(--pressed-state-color);
+}
+
 /**--portfolio--**/
 
 .section-portfolio {
